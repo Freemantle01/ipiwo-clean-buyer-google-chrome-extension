@@ -1,0 +1,22 @@
+{
+  "name": "IPIWO Clean Buyer",
+  "description": "Extension which removes warning banner on ipiwo!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "tabs"],
+  "action": {
+    "default_icon": {
+      "100": "/images/beer_cloud_100px.png"
+    }
+  },
+  "icons": {
+    "100": "/images/beer_cloud_100px.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.ipiwo.pl/*"],
+      "run_at": "document_end",
+      "js": ["content-script-banner-remover.js"]
+    }
+  ]
+}
