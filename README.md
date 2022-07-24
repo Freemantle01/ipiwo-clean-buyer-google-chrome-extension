@@ -1,5 +1,5 @@
 # IPIWO Clean Buyer Google Chrome Extension
-This extension remove warning footer banner from ipiwo page.
+This extension removes warning footer banner from ipiwo page.
 
 ## How to install this extension
 1. Download source code as zip and unpack.
